@@ -3,19 +3,57 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04AEEB0D1B418EF25023BC3F /* Pods_practicingBackDrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A558DD1EAA604A25A11AA056 /* Pods_practicingBackDrop.framework */; };
+		B41F4DD2269B8DAE009E6CA8 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B41F4DD1269B8DAE009E6CA8 /* Realm */; };
+		B41F4DD4269B8DAE009E6CA8 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B41F4DD3269B8DAE009E6CA8 /* RealmSwift */; };
+		B41F4DD6269B8EC6009E6CA8 /* FavViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F4DD5269B8EC6009E6CA8 /* FavViewModel.swift */; };
+		B42F054B269A28DD00DE965F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B42F054A269A28DD00DE965F /* Alamofire */; };
+		B42F054E269A2AEF00DE965F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F054D269A2AEF00DE965F /* Extensions.swift */; };
+		B4408A06269CF18C001D89A2 /* FavPetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4408A05269CF18C001D89A2 /* FavPetViewModel.swift */; };
+		B4408A10269E0243001D89A2 /* practicingBackDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4408A0F269E0243001D89A2 /* practicingBackDropTests.swift */; };
+		B4408A18269E027D001D89A2 /* PersistenceServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4408A17269E027D001D89A2 /* PersistenceServiceTest.swift */; };
 		B463D7C82699BD8B00795881 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463D7C72699BD8B00795881 /* AppDelegate.swift */; };
 		B463D7CA2699BD8B00795881 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463D7C92699BD8B00795881 /* SceneDelegate.swift */; };
 		B463D7CC2699BD8B00795881 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463D7CB2699BD8B00795881 /* ViewController.swift */; };
 		B463D7CF2699BD8B00795881 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B463D7CD2699BD8B00795881 /* Main.storyboard */; };
 		B463D7D12699BD8D00795881 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B463D7D02699BD8D00795881 /* Assets.xcassets */; };
 		B463D7D42699BD8D00795881 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B463D7D22699BD8D00795881 /* LaunchScreen.storyboard */; };
+		B463D7DD2699BDCC00795881 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463D7DC2699BDCC00795881 /* Network.swift */; };
+		B463D7E02699BF5F00795881 /* PetsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463D7DF2699BF5F00795881 /* PetsModel.swift */; };
+		B463D7E52699EFEC00795881 /* favCatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463D7E42699EFEC00795881 /* favCatModel.swift */; };
+		B463D7EA2699F15200795881 /* CatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B463D7E92699F15200795881 /* CatTableViewCell.swift */; };
+		B4742271269CB6EE0027B4DD /* PersistenceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4742270269CB6EE0027B4DD /* PersistenceService.swift */; };
+		B474FCE3269C4D8600CC7905 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B474FCE2269C4D8600CC7905 /* Kingfisher */; };
+		B4B7B4CD269B2F4800533186 /* CatsLikedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7B4CC269B2F4800533186 /* CatsLikedViewController.swift */; };
+		B4B7B4CF269B2F8B00533186 /* CatsLikedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B7B4CE269B2F8B00533186 /* CatsLikedCollectionViewCell.swift */; };
+		B4B89D25269A5AE6005288A1 /* CatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B89D24269A5AE6005288A1 /* CatViewModel.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		B4408A12269E0243001D89A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B463D7BC2699BD8A00795881 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B463D7C32699BD8B00795881;
+			remoteInfo = practicingBackDrop;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		09D5D7E0EEFC7D224E212363 /* Pods-practicingBackDrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practicingBackDrop.release.xcconfig"; path = "Target Support Files/Pods-practicingBackDrop/Pods-practicingBackDrop.release.xcconfig"; sourceTree = "<group>"; };
+		445DE5804DDE2FAE733E46FB /* Pods-practicingBackDrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practicingBackDrop.debug.xcconfig"; path = "Target Support Files/Pods-practicingBackDrop/Pods-practicingBackDrop.debug.xcconfig"; sourceTree = "<group>"; };
+		A558DD1EAA604A25A11AA056 /* Pods_practicingBackDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practicingBackDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B41F4DD5269B8EC6009E6CA8 /* FavViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavViewModel.swift; sourceTree = "<group>"; };
+		B42F054D269A2AEF00DE965F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B4408A05269CF18C001D89A2 /* FavPetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavPetViewModel.swift; sourceTree = "<group>"; };
+		B4408A0D269E0243001D89A2 /* practicingBackDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practicingBackDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4408A0F269E0243001D89A2 /* practicingBackDropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practicingBackDropTests.swift; sourceTree = "<group>"; };
+		B4408A11269E0243001D89A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4408A17269E027D001D89A2 /* PersistenceServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceServiceTest.swift; sourceTree = "<group>"; };
 		B463D7C42699BD8B00795881 /* practicingBackDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practicingBackDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B463D7C72699BD8B00795881 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B463D7C92699BD8B00795881 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,24 +62,74 @@
 		B463D7D02699BD8D00795881 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B463D7D32699BD8D00795881 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B463D7D52699BD8D00795881 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B463D7DC2699BDCC00795881 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B463D7DF2699BF5F00795881 /* PetsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsModel.swift; sourceTree = "<group>"; };
+		B463D7E42699EFEC00795881 /* favCatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = favCatModel.swift; sourceTree = "<group>"; };
+		B463D7E92699F15200795881 /* CatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatTableViewCell.swift; sourceTree = "<group>"; };
+		B4742270269CB6EE0027B4DD /* PersistenceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceService.swift; sourceTree = "<group>"; };
+		B4B7B4CC269B2F4800533186 /* CatsLikedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsLikedViewController.swift; sourceTree = "<group>"; };
+		B4B7B4CE269B2F8B00533186 /* CatsLikedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatsLikedCollectionViewCell.swift; sourceTree = "<group>"; };
+		B4B89D24269A5AE6005288A1 /* CatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B463D7C12699BD8B00795881 /* Frameworks */ = {
+		B4408A0A269E0243001D89A2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B463D7C12699BD8B00795881 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B41F4DD4269B8DAE009E6CA8 /* RealmSwift in Frameworks */,
+				B41F4DD2269B8DAE009E6CA8 /* Realm in Frameworks */,
+				04AEEB0D1B418EF25023BC3F /* Pods_practicingBackDrop.framework in Frameworks */,
+				B42F054B269A28DD00DE965F /* Alamofire in Frameworks */,
+				B474FCE3269C4D8600CC7905 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7863661A8327133F68AF0318 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				445DE5804DDE2FAE733E46FB /* Pods-practicingBackDrop.debug.xcconfig */,
+				09D5D7E0EEFC7D224E212363 /* Pods-practicingBackDrop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B42F054C269A2AD400DE965F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B42F054D269A2AEF00DE965F /* Extensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		B4408A0E269E0243001D89A2 /* practicingBackDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				B4408A0F269E0243001D89A2 /* practicingBackDropTests.swift */,
+				B4408A11269E0243001D89A2 /* Info.plist */,
+				B4408A17269E027D001D89A2 /* PersistenceServiceTest.swift */,
+			);
+			path = practicingBackDropTests;
+			sourceTree = "<group>";
+		};
 		B463D7BB2699BD8A00795881 = {
 			isa = PBXGroup;
 			children = (
 				B463D7C62699BD8B00795881 /* practicingBackDrop */,
+				B4408A0E269E0243001D89A2 /* practicingBackDropTests */,
 				B463D7C52699BD8B00795881 /* Products */,
+				7863661A8327133F68AF0318 /* Pods */,
+				C950E22B2D221DD28440648E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				B463D7C42699BD8B00795881 /* practicingBackDrop.app */,
+				B4408A0D269E0243001D89A2 /* practicingBackDropTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,33 +145,142 @@
 		B463D7C62699BD8B00795881 /* practicingBackDrop */ = {
 			isa = PBXGroup;
 			children = (
-				B463D7C72699BD8B00795881 /* AppDelegate.swift */,
-				B463D7C92699BD8B00795881 /* SceneDelegate.swift */,
-				B463D7CB2699BD8B00795881 /* ViewController.swift */,
-				B463D7CD2699BD8B00795881 /* Main.storyboard */,
-				B463D7D02699BD8D00795881 /* Assets.xcassets */,
-				B463D7D22699BD8D00795881 /* LaunchScreen.storyboard */,
+				B463D7E82699F08B00795881 /* StoryBoards */,
+				B463D7E72699F07800795881 /* Resources */,
+				B463D7E62699F04C00795881 /* Views */,
+				B463D7E32699EFC500795881 /* ViewModel */,
+				B463D7DE2699BF4900795881 /* Models */,
+				B463D7DB2699BDA500795881 /* NetworkCall */,
 				B463D7D52699BD8D00795881 /* Info.plist */,
 			);
 			path = practicingBackDrop;
 			sourceTree = "<group>";
 		};
+		B463D7DB2699BDA500795881 /* NetworkCall */ = {
+			isa = PBXGroup;
+			children = (
+				B463D7DC2699BDCC00795881 /* Network.swift */,
+			);
+			path = NetworkCall;
+			sourceTree = "<group>";
+		};
+		B463D7DE2699BF4900795881 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B463D7DF2699BF5F00795881 /* PetsModel.swift */,
+				B4742270269CB6EE0027B4DD /* PersistenceService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B463D7E32699EFC500795881 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B463D7E42699EFEC00795881 /* favCatModel.swift */,
+				B4B89D24269A5AE6005288A1 /* CatViewModel.swift */,
+				B41F4DD5269B8EC6009E6CA8 /* FavViewModel.swift */,
+				B4408A05269CF18C001D89A2 /* FavPetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B463D7E62699F04C00795881 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4B7B4CB269B2EF000533186 /* MainViews */,
+				B4B7B4CA269B2EDF00533186 /* Cells */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B463D7E72699F07800795881 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B42F054C269A2AD400DE965F /* Extension */,
+				B463D7D02699BD8D00795881 /* Assets.xcassets */,
+				B463D7C72699BD8B00795881 /* AppDelegate.swift */,
+				B463D7C92699BD8B00795881 /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B463D7E82699F08B00795881 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				B463D7CD2699BD8B00795881 /* Main.storyboard */,
+				B463D7D22699BD8D00795881 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		B4B7B4CA269B2EDF00533186 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B463D7E92699F15200795881 /* CatTableViewCell.swift */,
+				B4B7B4CE269B2F8B00533186 /* CatsLikedCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B4B7B4CB269B2EF000533186 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				B463D7CB2699BD8B00795881 /* ViewController.swift */,
+				B4B7B4CC269B2F4800533186 /* CatsLikedViewController.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		C950E22B2D221DD28440648E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A558DD1EAA604A25A11AA056 /* Pods_practicingBackDrop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B4408A0C269E0243001D89A2 /* practicingBackDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4408A16269E0243001D89A2 /* Build configuration list for PBXNativeTarget "practicingBackDropTests" */;
+			buildPhases = (
+				B4408A09269E0243001D89A2 /* Sources */,
+				B4408A0A269E0243001D89A2 /* Frameworks */,
+				B4408A0B269E0243001D89A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B4408A13269E0243001D89A2 /* PBXTargetDependency */,
+			);
+			name = practicingBackDropTests;
+			productName = practicingBackDropTests;
+			productReference = B4408A0D269E0243001D89A2 /* practicingBackDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		B463D7C32699BD8B00795881 /* practicingBackDrop */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B463D7D82699BD8D00795881 /* Build configuration list for PBXNativeTarget "practicingBackDrop" */;
 			buildPhases = (
+				0CDFD427A682E37A4FF4D5AF /* [CP] Check Pods Manifest.lock */,
 				B463D7C02699BD8B00795881 /* Sources */,
 				B463D7C12699BD8B00795881 /* Frameworks */,
 				B463D7C22699BD8B00795881 /* Resources */,
+				18A4BF4F5255E1AE3C647D8A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = practicingBackDrop;
+			packageProductDependencies = (
+				B42F054A269A28DD00DE965F /* Alamofire */,
+				B41F4DD1269B8DAE009E6CA8 /* Realm */,
+				B41F4DD3269B8DAE009E6CA8 /* RealmSwift */,
+				B474FCE2269C4D8600CC7905 /* Kingfisher */,
+			);
 			productName = practicingBackDrop;
 			productReference = B463D7C42699BD8B00795881 /* practicingBackDrop.app */;
 			productType = "com.apple.product-type.application";
@@ -96,6 +294,10 @@
 				LastSwiftUpdateCheck = 1250;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					B4408A0C269E0243001D89A2 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = B463D7C32699BD8B00795881;
+					};
 					B463D7C32699BD8B00795881 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -110,16 +312,29 @@
 				Base,
 			);
 			mainGroup = B463D7BB2699BD8A00795881;
+			packageReferences = (
+				B42F0549269A28DD00DE965F /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B41F4DD0269B8DAE009E6CA8 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				B474FCE1269C4D8600CC7905 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B463D7C52699BD8B00795881 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				B463D7C32699BD8B00795881 /* practicingBackDrop */,
+				B4408A0C269E0243001D89A2 /* practicingBackDropTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B4408A0B269E0243001D89A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B463D7C22699BD8B00795881 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -132,18 +347,88 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CDFD427A682E37A4FF4D5AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practicingBackDrop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18A4BF4F5255E1AE3C647D8A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practicingBackDrop/Pods-practicingBackDrop-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practicingBackDrop/Pods-practicingBackDrop-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-practicingBackDrop/Pods-practicingBackDrop-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		B4408A09269E0243001D89A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4408A10269E0243001D89A2 /* practicingBackDropTests.swift in Sources */,
+				B4408A18269E027D001D89A2 /* PersistenceServiceTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B463D7C02699BD8B00795881 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B463D7CC2699BD8B00795881 /* ViewController.swift in Sources */,
+				B42F054E269A2AEF00DE965F /* Extensions.swift in Sources */,
 				B463D7C82699BD8B00795881 /* AppDelegate.swift in Sources */,
+				B4B89D25269A5AE6005288A1 /* CatViewModel.swift in Sources */,
+				B4B7B4CD269B2F4800533186 /* CatsLikedViewController.swift in Sources */,
+				B4B7B4CF269B2F8B00533186 /* CatsLikedCollectionViewCell.swift in Sources */,
+				B463D7E52699EFEC00795881 /* favCatModel.swift in Sources */,
+				B4742271269CB6EE0027B4DD /* PersistenceService.swift in Sources */,
+				B41F4DD6269B8EC6009E6CA8 /* FavViewModel.swift in Sources */,
+				B463D7DD2699BDCC00795881 /* Network.swift in Sources */,
+				B463D7EA2699F15200795881 /* CatTableViewCell.swift in Sources */,
 				B463D7CA2699BD8B00795881 /* SceneDelegate.swift in Sources */,
+				B4408A06269CF18C001D89A2 /* FavPetViewModel.swift in Sources */,
+				B463D7E02699BF5F00795881 /* PetsModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B4408A13269E0243001D89A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B463D7C32699BD8B00795881 /* practicingBackDrop */;
+			targetProxy = B4408A12269E0243001D89A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		B463D7CD2699BD8B00795881 /* Main.storyboard */ = {
@@ -165,6 +450,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B4408A14269E0243001D89A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHDBVA4HXP;
+				INFOPLIST_FILE = practicingBackDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.practicingBackDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practicingBackDrop.app/practicingBackDrop";
+			};
+			name = Debug;
+		};
+		B4408A15269E0243001D89A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHDBVA4HXP;
+				INFOPLIST_FILE = practicingBackDropTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.decagon.practicingBackDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practicingBackDrop.app/practicingBackDrop";
+			};
+			name = Release;
+		};
 		B463D7D62699BD8D00795881 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -283,10 +608,12 @@
 		};
 		B463D7D92699BD8D00795881 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 445DE5804DDE2FAE733E46FB /* Pods-practicingBackDrop.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHDBVA4HXP;
 				INFOPLIST_FILE = practicingBackDrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,10 +628,12 @@
 		};
 		B463D7DA2699BD8D00795881 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09D5D7E0EEFC7D224E212363 /* Pods-practicingBackDrop.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NHDBVA4HXP;
 				INFOPLIST_FILE = practicingBackDrop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -320,6 +649,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B4408A16269E0243001D89A2 /* Build configuration list for PBXNativeTarget "practicingBackDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4408A14269E0243001D89A2 /* Debug */,
+				B4408A15269E0243001D89A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B463D7BF2699BD8A00795881 /* Build configuration list for PBXProject "practicingBackDrop" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -339,6 +677,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B41F4DD0269B8DAE009E6CA8 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.10.0;
+			};
+		};
+		B42F0549269A28DD00DE965F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		B474FCE1269C4D8600CC7905 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B41F4DD1269B8DAE009E6CA8 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B41F4DD0269B8DAE009E6CA8 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		B41F4DD3269B8DAE009E6CA8 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B41F4DD0269B8DAE009E6CA8 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		B42F054A269A28DD00DE965F /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B42F0549269A28DD00DE965F /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B474FCE2269C4D8600CC7905 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B474FCE1269C4D8600CC7905 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B463D7BC2699BD8A00795881 /* Project object */;
 }
